@@ -1,0 +1,11 @@
+.container .success {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 60px;
+}
+
+.container .success p {
+  margin-top: 18px;
+}

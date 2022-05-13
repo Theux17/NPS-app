@@ -1,0 +1,29 @@
+.options {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 32px;
+  gap: 8px;
+}
+
+.options .option {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 96px;
+  height: 112px;
+  background-color: #3F3F46;
+  border-radius: 8px;
+  cursor: pointer;
+
+  transition: all 200ms;
+}
+
+.options .option:hover {
+  background-color: #54545e;
+}
+
+.options .option .span {
+  pointer-events: none;
+}

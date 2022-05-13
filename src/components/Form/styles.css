@@ -1,0 +1,75 @@
+.option form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 16px;
+}
+
+.option form textarea {
+  width: 304px;
+  height: 114px;
+  background-color: transparent;
+  border-radius: 4px;
+  color: #F4F4F5;
+  padding: 8px 12px;
+  border: 1px solid #52525B;
+  resize: none;
+}
+
+.option form textarea:focus {
+  outline: none;
+}
+
+.option form textarea:focus-visible {
+  outline: 1px solid #52525B; 
+}
+
+.option form select {
+  width: 180px;
+  height: 28px;
+  background-color: #18181b;
+  border-radius: 4px;
+  color: #F4F4F5;
+  margin-top: 8px;
+  margin-left: 16px;
+  align-self: flex-start;
+  border: 1px solid #52525B;
+  cursor: pointer;
+}
+
+.option form select  {
+  color: white;
+}
+
+.option form select:focus {
+  outline: none;
+}
+
+.option form select:focus-visible {
+  outline: 1px solid #52525B; 
+}
+
+.option form button {
+  border: 1px solid #4682B4;
+  background-color: #4682B4;
+  width: 120px;
+  height: 40px;
+  border-radius: 4px;
+  color: #FFFFFF;
+  cursor: pointer;
+  transition: all 200ms;
+  margin-top: 10px;
+}
+
+.option form button:hover {
+  background-color: #326894;
+}
+
+.option form button:focus {
+  outline: none;
+}
+
+.option form button:focus-visible {
+  outline: 1px solid #61a0d4; 
+}
